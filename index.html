@@ -5,12 +5,23 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + Lit + TS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./src/index.css" />
-    <script type="module" src="/src/my-element.ts"></script>
+    <script type="module" src="/src/card-element.ts"></script>
   </head>
   <body>
-    <my-element>
-      <h1>Vite + Lit</h1>
-    </my-element>
+    <card-element title="Card Title">
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      </p>
+    </card-element>
+
+    <card-element title="Card Title" icon="❤️">
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      </p>
+    </card-element>
   </body>
 </html>
