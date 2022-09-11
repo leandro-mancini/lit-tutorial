@@ -239,17 +239,6 @@ export default App;
 
 ## Tutorial
 
-| Slides | Exemplo |
-| ------ | ------- |
-| 01 | ![](./tutorial/slide-01.jpg) |
-| 02 | ![](./tutorial/slide-02.jpg) |
-| 03 | ![](./tutorial/slide-03.jpg) |
-| 04 | ![](./tutorial/slide-04.jpg) |
-| 05 | ![](./tutorial/slide-05.jpg) |
-| 06 | ![](./tutorial/slide-06.jpg) |
-| 07 | ![](./tutorial/slide-07.jpg) |
-| 08 | ![](./tutorial/slide-08.jpg) |
-| 09 | ![](./tutorial/slide-09.jpg) |
-| 10 | ![](./tutorial/slide-10.jpg) |
-| 11 | ![](./tutorial/slide-11.jpg) |
-| 12 | ![](./tutorial/slide-12.jpg) |
+| Slide 01 | Slide 02 | Slide 03 | Slide 04 | Slide 05 | Slide 06 | Slide 07 | Slide 08 | Slide 09 | Slide 10 | Slide 11 | Slide 12 |
+| - | - | - | - | - | - | - | - | - | - | - | - |
+| ![](./tutorial/slide-01.jpg) | ![](./tutorial/slide-02.jpg) | ![](./tutorial/slide-03.jpg) | ![](./tutorial/slide-04.jpg) | ![](./tutorial/slide-05.jpg) | ![](./tutorial/slide-06.jpg) | ![](./tutorial/slide-07.jpg) | ![](./tutorial/slide-08.jpg) | ![](./tutorial/slide-09.jpg) | ![](./tutorial/slide-10.jpg) | ![](./tutorial/slide-11.jpg) | ![](./tutorial/slide-12.jpg) |
