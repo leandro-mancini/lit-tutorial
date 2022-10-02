@@ -5,12 +5,19 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + Lit + TS</title>
-    <link rel="stylesheet" href="./src/index.css" />
-    <script type="module" src="/src/my-element.ts"></script>
+    
+    <link rel="stylesheet" href="./node_modules/todomvc-common/base.css">
+    <link rel="stylesheet" href="./node_modules/todomvc-app-css/index.css">
+    
+    <script type="module" src="/src/todos-element.ts"></script>
+    <script type="module" src="/src/todo-element.ts"></script>
   </head>
   <body>
-    <my-element>
-      <h1>Vite + Lit</h1>
-    </my-element>
+    <div class="container padding">
+      <todos-element></todos-element>
+      <footer class="info">
+        <p>Criado por <a href="https://github.com/leandro-mancini">Leandro Mancini</a></p>
+      </footer>
+    </div>
   </body>
 </html>

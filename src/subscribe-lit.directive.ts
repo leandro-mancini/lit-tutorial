@@ -21,6 +21,8 @@ class SubscribeDirective extends AsyncDirective {
 
     subscribe(observable: Observable<unknown>) {
         this.sub = observable.subscribe((v: unknown) => {
+            console.log('v', v);
+
             this.setValue(v);
         });
     }
