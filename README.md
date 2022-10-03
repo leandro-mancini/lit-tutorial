@@ -16,7 +16,7 @@ Branch: [feat/card-element](https://github.com/leandro-mancini/lit-tutorial/tree
 
 | Slide 01 | Slide 02 | Slide 03 | Slide 04 | Slide 05 | Slide 06 | Slide 07 | Slide 08 | Slide 09 | Slide 10 | Slide 11 | Slide 12 |
 | - | - | - | - | - | - | - | - | - | - | - | - |
-| ![](./tutorial/getting-started/slide-01.jpg) | ![](./tutorial/getting-started/slide-02.jpg) | ![](./tutorial/getting-started/slide-03.jpg) | ![](./tutorial/getting-started/slide-04.jpg) | ![](./tutorial/getting-started/slide-05.jpg) | ![](./tutorial/getting-started/slide-06.jpg) | ![](./tutorial/getting-started/slide-07.jpg) | ![](./tutorial/getting-started/slide-08.jpg) | ![](./tutorial/getting-started/slide-09.jpg) | ![](./tutorial/getting-started/slide-10.jpg) | ![](./tutorial/getting-started/slide-11.jpg) | ![](./tutorial/getting-started/slide-12.jpg) |
+| ![](./tutorial/getting-started/slide-01.jpeg) | ![](./tutorial/getting-started/slide-02.jpeg) | ![](./tutorial/getting-started/slide-03.jpeg) | ![](./tutorial/getting-started/slide-04.jpeg) | ![](./tutorial/getting-started/slide-05.jpeg) | ![](./tutorial/getting-started/slide-06.jpeg) | ![](./tutorial/getting-started/slide-07.jpeg) | ![](./tutorial/getting-started/slide-08.jpeg) | ![](./tutorial/getting-started/slide-09.jpeg) | ![](./tutorial/getting-started/slide-10.jpeg) | ![](./tutorial/getting-started/slide-11.jpeg) | ![](./tutorial/getting-started/slide-12.jpeg) |
 
 ---
 
