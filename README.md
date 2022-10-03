@@ -169,3 +169,9 @@ export class TodosElement extends LitElement {
 ```
 
 Para renderizar uma lista de dados, use a diretiva [repeat](https://lit.dev/docs/templates/directives/#repeat), fornecendo a lista a ser renderizada e um modelo para usar na renderização de cada item.
+
+## Tutorial
+
+| Slide 01 | Slide 02 | Slide 03 | Slide 04 | Slide 05 | Slide 06 |
+| - | - | - | - | - | - |
+| ![](./tutorial/rxjs/slide-01.jpg) | ![](./tutorial/rxjs/slide-02.jpg) | ![](./tutorial/rxjs/slide-03.jpg) | ![](./tutorial/rxjs/slide-04.jpg) | ![](./tutorial/rxjs/slide-05.jpg) | ![](./tutorial/rxjs/slide-06.jpg) |
