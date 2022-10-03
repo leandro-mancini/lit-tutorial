@@ -16,3 +16,8 @@ Branch: [feat/card-element](https://github.com/leandro-mancini/lit-tutorial/tree
 
 ---
 
+### Lit & RxJS
+
+Branch: [feat/rxjs](https://github.com/leandro-mancini/lit-tutorial/tree/feat/rxjs)
+
+---
