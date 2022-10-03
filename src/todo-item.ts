@@ -9,25 +9,28 @@ export class TodoItem extends LitElement {
     @property()
     title!: string;
 
+    @property()
+    completed!: boolean;
+
+    onToggle(id: string): void {
+        const event = new CustomEvent<{ id: string }>('toggle', { detail: { id }});
+
+        this.dispatchEvent(event);
+    }
+
+    onRemove(id: string): void {
+        const event = new CustomEvent<{ id: string }>('remove', { detail: { id }});
+
+        this.dispatchEvent(event);
+    }
+
     render() {
         return html`
-        <li>
-            <div class="view">
-                <input type="checkbox" class="toggle" />
-                <label>${this.title}</label>
-                <button class="button" class="destroy"></button>
-            </div>
-            <input 
-                type="text"
-                class="edit"
-                #edittodo
-                *ngIf="editing"
-                [value]="todo.title"
-                (blur)="stopEditing(edittodo.value)"
-                (keyup.enter)="stopEditing(edittodo.value)"
-                (keyup.escape)="cancelEditing()"
-            />
-        </li>
+        <div class="view">
+            <input type="checkbox" class="toggle" value=${this.completed} @change=${() => this.onToggle(this.id)} />
+            <label>${this.title}</label>
+            <button class="button destroy" @click=${() => this.onRemove(this.id)}></button>
+        </div>
         `
     }
 

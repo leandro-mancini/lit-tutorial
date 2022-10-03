@@ -12,23 +12,31 @@ export class TodoFooter extends LitElement {
     @property()
     remainintCount!: number;
 
+    removeCompleted(): void {
+        const event = new CustomEvent('removeCompleted');
+
+        this.dispatchEvent(event);
+    }
+
     renderButtonClear(): TemplateResult {
         if (!this.hasCompleted) return html``;
 
-        return html`<button class="clear-completed">Limpar</button>`
+        return html`<button class="clear-completed" @click=${this.removeCompleted}>Limpar</button>`
     }
 
     renderFilters(): TemplateResult {
+        const currentStatus = location.pathname.replace('/', '');
+
         return html`
         <ul class="filters">
             <li>
-                <a href="javascript:;" class="currentStatus">Todos</a>
+                <a href="/" class=${currentStatus === '' ? 'selected' : ''}>Todos</a>
             </li>
             <li>
-                <a href="javascript:;">Ativo</a>
+                <a href="active" class=${currentStatus === 'active' ? 'selected' : ''}>Ativo</a>
             </li>
             <li>
-                <a href="javascript:;">Concluído</a>
+                <a href="completed" class=${currentStatus === 'completed' ? 'selected' : ''}>Concluído</a>
             </li>
         </ul>
         `;
